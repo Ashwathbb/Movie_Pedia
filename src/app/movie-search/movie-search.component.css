@@ -1,0 +1,177 @@
+/* Navbar styling */
+.navbar {
+  background-color: #f8f9fa; /* Light background color for the navbar */
+  padding: 1rem; /* Padding around the content */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Navbar brand styling */
+.navbar-brand {
+  display: flex; /* Flexbox to align items */
+  align-items: center; /* Center items vertically */
+  text-decoration: none; /* Remove underline from links */
+  color: #343a40; /* Dark color for text */
+}
+.navbar-text
+{
+  font-size:1.5rem;
+  font-weight:bold;
+  color:dark;
+  transition: color 0.3s ease;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* Film icon styling */
+.film-icon {
+  width: 30px; /* Set width of the icon */
+  height: 30px; /* Set height of the icon */
+  margin-right: 0.5rem; /* Space between the icon and the text */
+  transition: transform 0.3s ease, filter 0.3s ease; /* Smooth transition for hover effects */
+}
+
+/* Hover effect for the film icon */
+.film-icon:hover {
+  transform: scale(1.1); /* Slightly enlarge the icon on hover */
+  filter: brightness(1.2); /* Increase brightness on hover */
+}
+
+/* Navbar text styling */
+.navbar-brand {
+  font-size: 1.25rem; /* Increase font size */
+  font-weight: bold; /* Bold text */
+}
+
+/* Search container styling */
+
+@keyframes slide {
+    0% {
+        transform: translateX(-190px);
+    }
+    50% {
+        transform: translateX(190px); /* Moves 100px to the right */
+    }
+    100% {
+        transform: translateX(190); /* Moves back to the original position */
+    }
+}
+
+.header {
+    font-size: 24px;
+    font-weight: bold;
+    animation: slide 3s infinite; /* Animation duration and infinite loop */
+    color:rgb(204, 41, 204);
+    text-align: center;
+}
+
+.search-container {
+    margin: 20px;
+    text-align: center;
+  }
+  
+
+  
+  .form-control {
+    width: 40%;
+    height:30px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+  }
+  
+  .btn-primary {
+    margin-top: 10px;
+    background-color: #4a90e2;
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 4px;
+  }
+  
+  .btn-primary:hover {
+    background-color: #357abd;
+  }
+  
+  /* Centered movie details box */
+  .movie-details-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh; /* Adjust the height as needed */
+  }
+  
+  .movie-details {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+
+    background-color: #eaf5f2;
+    margin-left: 150px;
+    margin-right:150px;
+    border-radius: 10px; 
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+ 
+  .movie-info {
+    flex: 1;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  
+  .movie-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+ 
+  .genre {
+    font-size: 1.2rem;
+    color: #0e0d0d;
+    margin-bottom: 10px;
+  }
+  
+  .rating {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .actors, .plot {
+    font-size: 1rem;
+    color: #444;
+    margin-bottom: 10px;
+  }
+  
+  .poster {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .poster img {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    border-radius: 8px;
+    transition: transform 0.3s;
+  }
+  
+  .poster img:hover {
+    transform: scale(1.05);
+  }
+  .container.col-md-4, .container.col-md-8 {
+    padding: 15px;
+  }
+   
+  
+  
+  
+  
+  
+  
+
+  
+
+  
+  
